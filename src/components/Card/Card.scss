@@ -1,0 +1,35 @@
+@import '../../scss/var.scss';
+
+.card {
+    background: $dark-grey;
+    min-width: 320px;
+    width: 425px;
+    height: 700px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+
+    &__avatar {
+        margin: 2rem 0;
+        width: 100px;
+        border-radius: 100%;
+    }
+    &__profile {
+        color: $white;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: .5rem;
+    }
+    &__local {
+        color: $green;
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    &__citation {
+        color: $white;
+        margin-bottom: 2rem;
+    }
+}

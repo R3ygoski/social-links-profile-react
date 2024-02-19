@@ -1,0 +1,36 @@
+@import '../../scss/var.scss';
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+
+    &__social_media {
+        background: $grey;
+        height: 54px;
+
+        border-radius: .5rem;
+        cursor: pointer;
+        .social_media__link {
+            color: $white;
+            font-weight: 700;
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: .5rem;
+        }
+        &:hover {
+            transition: .3s;
+            background: $green;
+        }
+        &:hover .social_media__link {
+            transition: .3s;
+            color: $dark-grey;
+        }
+    }
+}
