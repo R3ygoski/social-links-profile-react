@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-made-with-react-and-sass-hiXIIMJxyR)
+- Live Site URL: [Github](https://r3ygoski.github.io/social-links-profile-react/)
 
 ## My process
 
